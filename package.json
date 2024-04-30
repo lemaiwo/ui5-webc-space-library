@@ -6,7 +6,7 @@
 	"license": "Apache-2.0",
 	"scripts": {
 		"clean": "rimraf dist coverage",
-		"build": "ui5 build --clean-dest",
+		"build": "ui5 build --config ui5-build.yaml --clean-dest",
 		"start": "ui5 serve -o test-resources/be/wl/space/kitchen.html",
 		"start:dist": "npm start -- --config ui5-dist.yaml",
 		"testsuite": "ui5 serve -o test-resources/be/wl/space/qunit/testsuite.qunit.html",
