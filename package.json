@@ -35,6 +35,6 @@
 		"ui5-middleware-livereload": "^3.0.1"
 	},
 	"dependencies": {
-		"space-package": "../space-package"
+		"space-package": "../ui5-webc-space-package"
 	}
 }
